@@ -3,27 +3,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff; /* Color de fondo general */
 }
 
 /* Encabezado */
 header {
-    background-color: #ffffff;
+    background-color: transparent;
     text-align: left;
     padding: 20px;
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 100px; /* Tamaño del logo */
 }
 
 h1 {
-    font-size: 24px;
-    color: #1f2d3d;
+    font-size: 28px; /* Tamaño del título */
+    color: #0d1626; /* Azul oscuro */
 }
 
 /* Sección de Bienvenida */
 .welcome-section {
-    background-color: #ffffff;
+    background-color: transparent;
     text-align: center;
     padding: 40px;
 }
@@ -32,26 +33,27 @@ h1 {
     max-width: 100%;
 }
 
+.welcome-section p {
+    font-size: 18px; /* Tamaño del texto de la meta descripción */
+    color: #0d1626; /* Azul oscuro */
+}
+
 /* Sección de Contenido Principal */
 .main-content {
-    background-color: #ffffff;
+    background-color: transparent;
     text-align: left;
     padding: 20px;
 }
 
-.content-columns {
-    column-count: 2;
-    column-gap: 20px;
-}
-
-p {
-    font-size: 16px;
-    color: #1f2d3d;
-}
-
 .exam-names {
     font-weight: bold;
-    color: #0d1626;
+    color: #072450; /* Azul más oscuro para énfasis */
+}
+
+.main-content p {
+    font-size: 16px; /* Tamaño del texto principal */
+    color: #0d1626; /* Azul oscuro */
+    margin-bottom: 10px; /* Espacio entre párrafos */
 }
 
 /* Botón de WhatsApp */
@@ -62,37 +64,38 @@ p {
 }
 
 .whatsapp-button img {
-    width: 60px;
+    width: 60px; /* Tamaño del icono de WhatsApp */
 }
 
 /* Llamado a la Acción */
 .call-to-action {
-    background-color: #5e92ff;
+    background-color: #4cb5e8; /* Azul claro */
     text-align: center;
     padding: 20px;
 }
 
 .cta-box {
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
 }
 
 .cta-box p {
-    color: #1f2d3d;
+    font-size: 18px; /* Tamaño del texto del llamado a la acción */
+    color: #ffffff; /* Texto en blanco */
+    margin-bottom: 10px; /* Espacio entre párrafos */
 }
 
 .cta-box a {
     display: inline-block;
-    background-color: #1f2d3d;
+    background-color: #072450; /* Azul más oscuro */
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
     font-weight: bold;
 }
 
 .cta-box a:hover {
-    background-color: #0d1626;
+    background-color: #0d1626; /* Azul oscuro */
 }
