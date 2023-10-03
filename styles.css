@@ -14,20 +14,6 @@ body {
 }
 
 /* Encabezado */
-.logo {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 20px; /* Centrar el logo */
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%; /* Hacer el logo redondo */
-}
-
 h1 {
     font-size: 28px;
     margin: 0;
@@ -38,11 +24,6 @@ h1 {
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     padding: 20px;
-}
-
-.exam-names {
-    font-weight: bold;
-    color: #072450; /* Azul más oscuro para énfasis */
 }
 
 .main-content p {
@@ -73,6 +54,8 @@ h1 {
     border-radius: 10px;
 }
 
-.cta-box p {
-    font-size: 18px; /* Tamaño del texto del llamado a la acción */
-    margin-bottom: 
+/* Texto en blanco */
+.white-text {
+    color: #ffffff; /* Texto en blanco */
+    font-size: 16px; /* Tamaño del texto */
+}
