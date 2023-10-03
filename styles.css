@@ -14,6 +14,20 @@ body {
 }
 
 /* Encabezado */
+.logo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Centrar el logo */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Hacer el logo redondo */
+}
+
 h1 {
     font-size: 28px;
     margin: 0;
