@@ -35,6 +35,8 @@ h1 {
 
 /* Sección de Contenido Principal */
 .main-content {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
     padding: 20px;
 }
 
