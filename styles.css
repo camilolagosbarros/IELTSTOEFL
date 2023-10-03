@@ -75,19 +75,4 @@ h1 {
 
 .cta-box p {
     font-size: 18px; /* Tamaño del texto del llamado a la acción */
-    margin-bottom: 20px; /* Espacio entre párrafos */
-}
-
-.cta-box a {
-    display: inline-block;
-    background-color: #072450; /* Azul más oscuro */
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.cta-box a:hover {
-    background-color: #0d1626; /* Azul oscuro */
-}
+    margin-bottom: 
