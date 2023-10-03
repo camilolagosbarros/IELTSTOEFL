@@ -1,31 +1,98 @@
-/* styles.css */
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
+/* Encabezado */
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1f2d3d;
+}
+
+/* Sección de Bienvenida */
+.welcome-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome-section img {
+    max-width: 100%;
+}
+
+/* Sección de Contenido Principal */
+.main-content {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+}
+
+.content-columns {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #1f2d3d;
+}
+
+.exam-names {
+    font-weight: bold;
+    color: #0d1626;
+}
+
+/* Botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    width: 60px;
+}
+
+/* Llamado a la Acción */
+.call-to-action {
+    background-color: #5e92ff;
     text-align: center;
     padding: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.cta-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
+.cta-box p {
+    color: #1f2d3d;
 }
 
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+.cta-box a {
+    display: inline-block;
+    background-color: #1f2d3d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cta-box a:hover {
+    background-color: #0d1626;
 }
