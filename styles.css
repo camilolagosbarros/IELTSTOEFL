@@ -45,6 +45,29 @@ h1 {
     margin-bottom: 20px; /* Espacio entre párrafos */
 }
 
+/* Galería de Imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
 /* Estilo para la imagen con efecto de persiana */
 .parallax-container {
     overflow: hidden;
