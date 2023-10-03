@@ -45,36 +45,19 @@ h1 {
     margin-bottom: 20px; /* Espacio entre párrafos */
 }
 
-.main-content img {
-    max-width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+/* Estilo para la imagen con efecto de persiana */
+.parallax-container {
+    overflow: hidden;
+    position: relative;
+    max-height: 400px; /* Altura máxima de la imagen */
+}
+
+.parallax-image {
+    max-width: 100%; /* Hacer la imagen responsive */
     height: auto;
+    transform: translateY(0); /* Restablece la posición inicial */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
 }
 
 /* Botón de WhatsApp */
-.whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.whatsapp-button img {
-    width: 60px; /* Tamaño del icono de WhatsApp */
-}
-
-/* Llamado a la Acción */
-.call-to-action {
-    background-color: #0d1626; /* Azul oscuro */
-    text-align: center;
-    padding: 20px;
-}
-
-.cta-box {
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Texto en blanco */
-.white-text {
-    color: #ffffff; /* Texto en blanco */
-    font-size: 16px; /* Tamaño del texto */
-}
+.whatsapp-button
