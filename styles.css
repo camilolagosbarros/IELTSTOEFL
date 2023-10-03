@@ -44,6 +44,32 @@ h1 {
     font-size: 16px; /* Tamaño del texto principal */
     margin-bottom: 20px; /* Espacio entre párrafos */
 }
+/* ... (tu código CSS original) ... */
+
+/* Galería de Imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 0 0 calc(50% - 20px); /* Cambiado a 50% */
+    max-width: calc(50% - 20px); /* Cambiado a 50% */
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* ... (tu código CSS original) ... */
 
 /* Galería de Imágenes */
 .gallery {
