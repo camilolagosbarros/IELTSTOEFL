@@ -45,6 +45,11 @@ h1 {
     margin-bottom: 20px; /* Espacio entre párrafos */
 }
 
+.main-content img {
+    max-width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+    height: auto;
+}
+
 /* Botón de WhatsApp */
 .whatsapp-button {
     position: fixed;
