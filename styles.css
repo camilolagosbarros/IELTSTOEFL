@@ -10,6 +10,7 @@ body {
 /* Encabezado */
 header {
     position: relative;
+    background-color: transparent;
 }
 
 .header-top {
@@ -31,16 +32,12 @@ header {
 .header-top .logo img {
     width: 100%;
     height: auto;
+    border-radius: 50%; /* Hacer el logo redondo */
 }
 
 .header-top h1 {
     font-size: 28px;
     margin: 0;
-}
-
-.header-bottom {
-    background-color: #0d1626; /* Azul oscuro */
-    height: 10px;
 }
 
 /* Sección de Contenido Principal */
@@ -88,14 +85,4 @@ header {
 
 .cta-box a {
     display: inline-block;
-    background-color: #072450; /* Azul más oscuro */
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.cta-box a:hover {
-    background-color: #0d1626; /* Azul oscuro */
-}
+    background-color: #072450
