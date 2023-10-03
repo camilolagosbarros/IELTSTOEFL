@@ -64,10 +64,11 @@ h1 {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 999; /* Asegura que el botón de WhatsApp esté en la parte superior */
 }
 
 .whatsapp-button img {
-    width: 60px; /* Tamaño del icono de WhatsApp */
+    width: 40px; /* Tamaño del icono de WhatsApp ajustado */
 }
 
 /* Llamado a la Acción */
