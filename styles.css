@@ -3,39 +3,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+/* Franjas azules */
+.header-top {
     background-color: #0d1626; /* Azul oscuro */
+    padding: 20px;
+    text-align: center;
     color: #ffffff; /* Texto en blanco */
 }
 
 /* Encabezado */
-header {
-    position: relative;
-    background-color: transparent;
-}
-
-.header-top {
-    background-color: transparent;
-    text-align: left;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.header-top .logo {
+.logo {
     width: 100px;
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 0 auto 20px; /* Centrar el logo */
 }
 
-.header-top .logo img {
+.logo img {
     width: 100%;
     height: auto;
     border-radius: 50%; /* Hacer el logo redondo */
 }
 
-.header-top h1 {
+h1 {
     font-size: 28px;
     margin: 0;
 }
@@ -85,4 +78,14 @@ header {
 
 .cta-box a {
     display: inline-block;
-    background-color: #072450
+    background-color: #072450; /* Azul más oscuro */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-box a:hover {
+    background-color: #0d1626; /* Azul oscuro */
+}
