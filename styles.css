@@ -60,4 +60,30 @@ h1 {
 }
 
 /* Botón de WhatsApp */
-.whatsapp-button
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    width: 60px; /* Tamaño del icono de WhatsApp */
+}
+
+/* Llamado a la Acción */
+.call-to-action {
+    background-color: #0d1626; /* Azul oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-box {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Texto en blanco */
+.white-text {
+    color: #ffffff; /* Texto en blanco */
+    font-size: 16px; /* Tamaño del texto */
+}
