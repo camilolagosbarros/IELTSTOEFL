@@ -16,8 +16,8 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;  /* Cambia el ancho del logo */
+    height: 50px; /* Cambia la altura del logo */
     overflow: hidden;
     border-radius: 50%;
 }
