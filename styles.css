@@ -7,30 +7,31 @@ body {
 
 /* Franjas azules */
 .header-top {
-    background-color: #0d1626; /* Azul oscuro */
+    background-color: #0d1626;
     padding: 20px;
-    text-align: center;
-    color: #ffffff; /* Texto en blanco */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinea el logo a la izquierda y el espacio restante a la derecha */
 }
 
-/* Encabezado */
 .logo {
     width: 100px;
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
-    margin: 0 auto 20px; /* Centrar el logo */
 }
 
 .logo img {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Hacer el logo redondo */
+    border-radius: 50%;
 }
 
 h1 {
     font-size: 28px;
-    margin: 0;
+    margin: 20px 0; /* Agrega un espacio desde arriba */
+    text-align: center; /* Centra el texto */
 }
 
 /* Sección de Contenido Principal */
