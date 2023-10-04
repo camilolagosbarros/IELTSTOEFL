@@ -9,9 +9,9 @@ body {
 .header-top {
     background-color: #0d1626;
     padding: 20px;
+    color: #ffffff;
     display: flex;
     align-items: center;
-    color: #ffffff;
 }
 
 .logo {
@@ -19,6 +19,7 @@ body {
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
+    margin-right: 20px; /* Añade un margen a la derecha del logo */
 }
 
 .logo img {
@@ -30,8 +31,8 @@ body {
 h1 {
     font-size: 28px;
     margin: 0;
-    flex-grow: 1;
 }
+
 
 /* Sección de Contenido Principal */
 .main-content {
