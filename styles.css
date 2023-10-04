@@ -7,69 +7,75 @@ body {
 
 /* Franjas azules */
 .header-top {
-    background-color: #0d1626;
+    background-color: #0d1626; /* Azul oscuro */
     padding: 20px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
+    text-align: center;
+    color: #ffffff; /* Texto en blanco */
 }
 
+/* Encabezado */
 .logo {
     width: 100px;
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 0 auto 20px; /* Centrar el logo */
 }
 
 .logo img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* Hacer el logo redondo */
 }
 
-.background-image {
-    background-image: url('Franja.png');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5;
-}
-
-.title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.title h1 {
-    font-size: 56px;
-    color: #000000;
-    margin: 0;
-}
-
-.title h2 {
+h1 {
     font-size: 28px;
-    color: #000000;
     margin: 0;
 }
 
-/* Contenido Principal */
+/* Sección de Contenido Principal */
 .main-content {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
     padding: 20px;
 }
 
+.main-content p {
+    font-size: 16px; /* Tamaño del texto principal */
+    margin-bottom: 20px; /* Espacio entre párrafos */
+}
+/* ... (tu código CSS original) ... */
+
+/* Galería de Imágenes */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.gallery-item {
+    flex: 0 0 calc(50% - 20px); /* Cambiado a 50% */
+    max-width: calc(50% - 20px); /* Cambiado a 50% */
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* ... (tu código CSS original) ... */
+
+/* Galería de Imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .gallery-item {
@@ -88,4 +94,46 @@ body {
     border-radius: 10px;
 }
 
-/* Otros estilos (deja tus estilos adicionales aquí si los tienes) */
+/* Estilo para la imagen con efecto de persiana */
+.parallax-container {
+    overflow: hidden;
+    position: relative;
+    max-height: 400px; /* Altura máxima de la imagen */
+}
+
+.parallax-image {
+    max-width: 100%; /* Hacer la imagen responsive */
+    height: auto;
+    transform: translateY(0); /* Restablece la posición inicial */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Asegura que el botón de WhatsApp esté en la parte superior */
+}
+
+.whatsapp-button img {
+    width: 40px; /* Tamaño del icono de WhatsApp ajustado */
+}
+
+/* Llamado a la Acción */
+.call-to-action {
+    background-color: #0d1626; /* Azul oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-box {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Texto en blanco */
+.white-text {
+    color: #ffffff; /* Texto en blanco */
+    font-size: 16px; /* Tamaño del texto */
+}
