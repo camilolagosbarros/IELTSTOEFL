@@ -14,18 +14,14 @@ body {
 }
 
 .background-image {
+    background-image: url('Franja.png'); /* Cambia el nombre de la imagen aquí */
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0.5; /* Ajusta la opacidad según sea necesario */
-}
-
-.background-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
 }
 
 .title {
@@ -38,11 +34,13 @@ body {
 .title h1 {
     font-size: 56px;
     margin: 0;
+    color: #000000; /* Cambiado a texto negro */
 }
 
 .title h2 {
     font-size: 28px;
     margin: 0;
+    color: #000000; /* Cambiado a texto negro */
 }
 
 /* Sección de Contenido Principal */
@@ -61,7 +59,7 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .gallery-item {
