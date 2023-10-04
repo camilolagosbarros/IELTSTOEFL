@@ -12,6 +12,7 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Alinea el logo a la izquierda y el espacio restante a la derecha */
 }
 
 .logo {
@@ -19,7 +20,6 @@ body {
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
-    margin-right: 20px; /* Añade un margen a la derecha del logo */
 }
 
 .logo img {
@@ -30,7 +30,8 @@ body {
 
 h1 {
     font-size: 28px;
-    margin: 0;
+    margin: 20px 0; /* Agrega un espacio desde arriba */
+    text-align: center; /* Centra el texto */
 }
 
 
