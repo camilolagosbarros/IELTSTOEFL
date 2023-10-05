@@ -41,7 +41,6 @@ h1 {
     top: 50%; /* Coloca el título en el centro vertical */
     left: 50%; /* Coloca el título en el centro horizontal */
     transform: translate(-50%, -50%); /* Ajusta la posición del título */
-    width: 100%; /* Asegura que el título ocupe todo el ancho */
 }
 
 /* Sección de Contenido Principal */
