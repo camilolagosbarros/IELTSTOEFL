@@ -33,14 +33,13 @@ body {
 
 h1 {
     font-size: 28px;
-    margin: 20px 0;
+    margin: 0;
     text-align: center;
-    color: #ffffff;
+    color: #ffffff; /* Color blanco para el texto */
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    top: 50%; /* Coloca el título en el centro vertical */
+    left: 50%; /* Coloca el título en el centro horizontal */
+    transform: translate(-50%, -50%); /* Ajusta la posición del título */
 }
 
 /* Sección de Contenido Principal */
