@@ -16,7 +16,6 @@ body {
     position: relative; /* Cambiado de fixed a relative */
     width: 100%;
     top: 0;
-    z-index: 999; /* Asegura que la franja esté en la parte superior */
 }
 
 .logo {
@@ -37,9 +36,10 @@ h1 {
     margin: 20px 0; 
     text-align: center; 
     color: #ffffff;
-    background: transparent; /* Añade fondo transparente al título */
-    position: relative; /* Asegura que esté en una capa superior */
-    z-index: 1000; /* Asegura que el título esté en la capa superior */
+    background: transparent; 
+    position: absolute; /* Cambiado a absolute */
+    width: 100%; /* Asegura que el título ocupe todo el ancho */
+    top: 0;
 }
 
 /* Sección de Contenido Principal */
