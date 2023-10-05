@@ -13,9 +13,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    position: relative; /* Cambiado de fixed a relative */
+    position: relative; /* Cambiado a relative */
     width: 100%;
     top: 0;
+    z-index: 1; /* Asegura que la franja azul no esté en la capa más alta */
 }
 
 .logo {
@@ -37,9 +38,11 @@ h1 {
     text-align: center; 
     color: #ffffff;
     background: transparent; 
-    position: absolute; /* Cambiado a absolute */
-    width: 100%; /* Asegura que el título ocupe todo el ancho */
-    top: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%; /* Lo posiciona en el centro vertical */
+    left: 50%; /* Lo posiciona en el centro horizontal */
+    transform: translate(-50%, -50%); /* Lo ajusta para que esté completamente centrado */
 }
 
 /* Sección de Contenido Principal */
