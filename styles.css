@@ -13,10 +13,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    position: fixed; /* Asegura que la franja se mantenga en la parte superior */
-    width: 100%; /* Asegura que la franja ocupe todo el ancho */
-    top: 0; /* Asegura que la franja esté en la parte superior */
-    z-index: 9999; /* Ajusta el z-index para asegurarte de que esté por debajo del título */
+    position: relative; /* Cambiado de fixed a relative */
+    width: 100%;
+    top: 0;
+    z-index: 999; /* Asegura que la franja esté en la parte superior */
 }
 
 .logo {
@@ -36,7 +36,10 @@ h1 {
     font-size: 28px;
     margin: 20px 0; 
     text-align: center; 
-    color: #ffffff; /* Agrega este estilo para hacer el texto blanco */
+    color: #ffffff;
+    background: transparent; /* Añade fondo transparente al título */
+    position: relative; /* Asegura que esté en una capa superior */
+    z-index: 1000; /* Asegura que el título esté en la capa superior */
 }
 
 /* Sección de Contenido Principal */
