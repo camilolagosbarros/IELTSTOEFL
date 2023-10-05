@@ -12,7 +12,11 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Alinea el logo a la izquierda y el espacio restante a la derecha */
+    justify-content: space-between; 
+    position: fixed; /* Asegura que la franja se mantenga en la parte superior */
+    width: 100%; /* Asegura que la franja ocupe todo el ancho */
+    top: 0; /* Asegura que la franja esté en la parte superior */
+    z-index: 9999; /* Ajusta el z-index para asegurarte de que esté por debajo del título */
 }
 
 .logo {
@@ -30,8 +34,9 @@ body {
 
 h1 {
     font-size: 28px;
-    margin: 20px 0; /* Agrega un espacio desde arriba */
-    text-align: center; /* Centra el texto */
+    margin: 20px 0; 
+    text-align: center; 
+    color: #ffffff; /* Agrega este estilo para hacer el texto blanco */
 }
 
 /* Sección de Contenido Principal */
