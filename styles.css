@@ -34,13 +34,14 @@ body {
 /* Estilos para el título */
 h1 {
     font-size: 28px;
-    margin: 0;
+    margin: 20px 0;
     text-align: center;
-    color: #ffffff; /* Color blanco para el texto */
+    color: #ffffff; /* Cambiado a blanco */
     position: absolute;
-    top: 50%; /* Coloca el título en el centro vertical */
-    left: 50%; /* Coloca el título en el centro horizontal */
-    transform: translate(-50%, -50%); /* Ajusta la posición del título */
+    top: 50%; /* Centra verticalmente en la franja azul */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra horizontalmente */
+    width: 100%;
 }
 
 /* Sección de Contenido Principal */
