@@ -36,11 +36,11 @@ h1 {
     font-size: 28px;
     margin: 20px 0;
     text-align: center;
-    color: #ffffff; /* Cambiado a blanco */
+    color: #ffffff;
     position: absolute;
-    top: 50%; /* Centra verticalmente en la franja azul */
+    top: 10px; /* Nueva posición, 10px desde el borde superior */
     left: 50%;
-    transform: translate(-50%, -50%); /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
     width: 100%;
 }
 
