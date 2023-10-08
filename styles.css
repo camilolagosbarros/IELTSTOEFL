@@ -19,8 +19,8 @@ body {
 }
 
 .logo {
-    width: 50px;  /* Cambia el ancho del logo */
-    height: 50px; /* Cambia la altura del logo */
+    width: 50px;  
+    height: 50px; 
     overflow: hidden;
     border-radius: 50%;
 }
@@ -38,49 +38,23 @@ h1 {
     text-align: center;
     color: #ffffff;
     position: absolute;
-    top: 10px; /* Nueva posición, 10px desde el borde superior */
+    top: 10px;
     left: 50%;
-    transform: translateX(-50%); /* Centra horizontalmente */
+    transform: translateX(-50%);
     width: 100%;
 }
 
 /* Sección de Contenido Principal */
 .main-content {
-    background-color: #ffffff; /* Fondo blanco */
-    color: #000000; /* Texto negro */
+    background-color: #ffffff; 
+    color: #000000; 
     padding: 20px;
 }
 
 .main-content p {
-    font-size: 16px; /* Tamaño del texto principal */
-    margin-bottom: 20px; /* Espacio entre párrafos */
+    font-size: 16px; 
+    margin-bottom: 20px; 
 }
-/* ... (tu código CSS original) ... */
-
-/* Galería de Imágenes */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.gallery-item {
-    flex: 0 0 calc(50% - 20px); /* Cambiado a 50% */
-    max-width: calc(50% - 20px); /* Cambiado a 50% */
-    margin: 10px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-/* ... (tu código CSS original) ... */
 
 /* Galería de Imágenes */
 .gallery {
@@ -109,14 +83,14 @@ h1 {
 .parallax-container {
     overflow: hidden;
     position: relative;
-    max-height: 400px; /* Altura máxima de la imagen */
+    max-height: 400px;
 }
 
 .parallax-image {
-    max-width: 100%; /* Hacer la imagen responsive */
+    max-width: 100%;
     height: auto;
-    transform: translateY(0); /* Restablece la posición inicial */
-    transition: transform 0.3s ease; /* Agrega una transición suave */
+    transform: translateY(0);
+    transition: transform 0.3s ease;
 }
 
 /* Botón de WhatsApp */
@@ -124,16 +98,16 @@ h1 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 999; /* Asegura que el botón de WhatsApp esté en la parte superior */
+    z-index: 999; 
 }
 
 .whatsapp-button img {
-    width: 40px; /* Tamaño del icono de WhatsApp ajustado */
+    width: 40px; 
 }
 
 /* Llamado a la Acción */
 .call-to-action {
-    background-color: #0d1626; /* Azul oscuro */
+    background-color: #0d1626; 
     text-align: center;
     padding: 20px;
 }
@@ -145,6 +119,6 @@ h1 {
 
 /* Texto en blanco */
 .white-text {
-    color: #ffffff; /* Texto en blanco */
-    font-size: 16px; /* Tamaño del texto */
+    color: #ffffff; 
+    font-size: 16px; 
 }
