@@ -32,6 +32,23 @@ body {
     border-radius: 50%;
 }
 
+/* Estilos para el logo en dispositivos móviles */
+@media (max-width: 600px) {
+    .logo {
+        width: 100px; /* Cambia el ancho del logo para dispositivos móviles */
+        height: 100px; /* Cambia la altura del logo para dispositivos móviles */
+        position: absolute; /* Posición absoluta para superponer sobre el título */
+        top: 10px; /* Ajusta la posición vertical */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%); /* Centra horizontalmente */
+    }
+
+    h1 {
+        position: relative; /* Cambia la posición del título para que el logo no lo cubra */
+        margin-top: 120px; /* Ajusta el espacio entre el logo y el título */
+    }
+}
+
 /* Estilos para el título */
 h1 {
     font-size: 28px;
