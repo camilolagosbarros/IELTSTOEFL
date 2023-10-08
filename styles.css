@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px; /* Agrega un margen de 20px alrededor del contenido */
+    margin: 0px; /* Agrega un margen de 0px alrededor del contenido */
     padding: 0;
 }
 
@@ -47,16 +47,19 @@ h1 {
 
 /* Sección de Contenido Principal */
 .main-content {
+    max-width: 800px; /* Establece el ancho máximo del párrafo */
+    margin: 0 auto; /* Centra el párrafo en la página */
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     padding: 20px;
 }
 
 .main-content p {
+    max-width: 800px; /* Establece el ancho máximo del párrafo */
+    margin: 0 auto; /* Centra el párrafo en la página */
     font-size: 16px; /* Tamaño del texto principal */
     margin-bottom: 20px; /* Espacio entre párrafos */
 }
-/* ... (tu código CSS original) ... */
 
 /* Galería de Imágenes */
 .gallery {
@@ -80,8 +83,6 @@ h1 {
     display: block;
     border-radius: 10px;
 }
-
-/* ... (tu código CSS original) ... */
 
 /* Galería de Imágenes */
 .gallery {
@@ -129,12 +130,12 @@ h1 {
 }
 
 .whatsapp-button img {
-    width: 40px; /* Tamaño del icono de WhatsApp ajustado */
+    width: 50px; /* Tamaño del icono de WhatsApp ajustado */
 }
 
 /* Llamado a la Acción */
 .call-to-action {
-    background-color: #0d1626; /* Azul oscuro */
+    background-color: #ffffff; /* Azul oscuro */
     text-align: center;
     padding: 20px;
 }
@@ -180,17 +181,4 @@ h1 {
 /* Agregar separación entre las secciones */
 .main-content > * {
     margin-bottom: 30px;
-}
-
-/* Agregar un poco más de espacio en los lados del contenido principal */
-.main-content {
-    padding: 20px;
-}
-
-.main-content p {
-    margin-bottom: 20px; /* Agrega margen en la parte inferior de cada párrafo */
-}
-
-.gallery-item img {
-    margin: 0; /* Elimina los márgenes alrededor de las imágenes */
 }
