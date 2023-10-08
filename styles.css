@@ -45,6 +45,14 @@ h1 {
     width: 100%;
 }
 
+/* Estilos para el título en dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px; /* Cambia el tamaño del texto para dispositivos móviles */
+        margin: 10px 0; /* Ajusta el margen */
+    }
+}
+
 /* Sección de Contenido Principal */
 .main-content {
     max-width: 800px; /* Establece el ancho máximo del párrafo */
