@@ -148,3 +148,40 @@ h1 {
     color: #ffffff; /* Texto en blanco */
     font-size: 16px; /* Tamaño del texto */
 }
+
+/* Estilos para el texto */
+.main-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilos para los títulos de sección */
+.main-content h2 {
+    font-size: 24px;
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilos para las listas de puntos */
+.main-content ul {
+    list-style-type: disc; /* Tipo de viñeta */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin-left: 20px; /* Sangría de la lista */
+}
+
+/* Estilos para los elementos de lista */
+.main-content li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Agregar separación entre las secciones */
+.main-content > * {
+    margin-bottom: 30px;
+}
+
+/* Agregar un poco más de espacio en los lados del contenido principal */
+.main-content {
+    padding: 20px;
+}
