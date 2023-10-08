@@ -185,3 +185,11 @@ h1 {
 .main-content {
     padding: 20px;
 }
+
+.main-content p {
+    margin-bottom: 20px; /* Agrega margen en la parte inferior de cada párrafo */
+}
+
+.gallery-item img {
+    margin: 0; /* Elimina los márgenes alrededor de las imágenes */
+}
