@@ -26,15 +26,12 @@ body {
     border-radius: 50%;
 }
 
-.logo img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
 /* Estilos para el logo en dispositivos móviles */
 @media (max-width: 600px) {
     .logo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
         width: 100px; /* Cambia el ancho del logo para dispositivos móviles */
         height: 100px; /* Cambia la altura del logo para dispositivos móviles */
         position: absolute; /* Posición absoluta para superponer sobre el título */
