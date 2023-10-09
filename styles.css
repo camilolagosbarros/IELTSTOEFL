@@ -19,11 +19,16 @@ body {
     justify-content: space-between;
 }
 
-/* Estilos para el logo */
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 50px;  /* Cambia el ancho del logo */
+    height: 50px; /* Cambia la altura del logo */
     overflow: hidden;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -37,8 +42,7 @@ body {
         left: 50%; /* Centra horizontalmente */
         transform: translateX(-50%); /* Centra horizontalmente */
     }
-}
-
+    
     h1 {
         position: relative; /* Cambia la posición del título para que el logo no lo cubra */
         margin-top: 120px; /* Ajusta el espacio entre el logo y el título */
