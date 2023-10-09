@@ -53,11 +53,23 @@ h1 {
 
 /* Estilos para el título en dispositivos móviles */
 @media (max-width: 600px) {
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Agrega espacio entre el logo y el título */
+    }
+
     h1 {
         font-size: 20px; /* Cambia el tamaño del texto para dispositivos móviles */
         margin: 10px 0; /* Ajusta el margen */
+        position: static;
+        text-align: center;
     }
 }
+
 
 /* Sección de Contenido Principal */
 .main-content {
