@@ -61,6 +61,7 @@ h1 {
     }
 
     .logo {
+        order: -1; /* Esto coloca el logo al principio del contenedor */
         margin-bottom: 10px; /* Agrega espacio entre el logo y el título */
     }
 
