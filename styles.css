@@ -44,7 +44,7 @@ h1 {
     margin: 20px 0;
     text-align: center;
     color: #ffffff;
-    position: absolute;
+    position: relative;
     top: 10px; /* Nueva posición, 10px desde el borde superior */
     left: 50%;
     transform: translateX(-50%); /* Centra horizontalmente */
