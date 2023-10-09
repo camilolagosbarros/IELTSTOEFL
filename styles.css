@@ -19,9 +19,10 @@ body {
     justify-content: space-between;
 }
 
+/* Estilos para el logo */
 .logo {
-    width: 50px;  /* Cambia el ancho del logo */
-    height: 50px; /* Cambia la altura del logo */
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -29,9 +30,6 @@ body {
 /* Estilos para el logo en dispositivos móviles */
 @media (max-width: 600px) {
     .logo {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
         width: 100px; /* Cambia el ancho del logo para dispositivos móviles */
         height: 100px; /* Cambia la altura del logo para dispositivos móviles */
         position: absolute; /* Posición absoluta para superponer sobre el título */
@@ -39,6 +37,7 @@ body {
         left: 50%; /* Centra horizontalmente */
         transform: translateX(-50%); /* Centra horizontalmente */
     }
+}
 
     h1 {
         position: relative; /* Cambia la posición del título para que el logo no lo cubra */
