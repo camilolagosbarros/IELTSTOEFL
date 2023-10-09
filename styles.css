@@ -54,6 +54,8 @@ h1 {
 /* Estilos para el título en dispositivos móviles */
 @media (max-width: 600px) {
     .header-top {
+        padding: 40px; /* Aumenta el espacio interno del contenedor */
+        height: auto; /* Permite que la altura se ajuste automáticamente según el contenido */
         flex-direction: column;
         text-align: center;
     }
