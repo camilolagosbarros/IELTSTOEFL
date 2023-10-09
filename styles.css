@@ -67,7 +67,6 @@ h1 {
     h1 {
         font-size: 20px; /* Cambia el tamaño del texto para dispositivos móviles */
         margin: 10px 0; /* Ajusta el margen */
-        position: static;
         text-align: center;
     }
 }
