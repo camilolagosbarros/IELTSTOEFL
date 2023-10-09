@@ -32,6 +32,12 @@ body {
     border-radius: 50%;
 }
 
+h1 {
+    font-size: 28px;
+    margin: 20px 0; /* Agrega un espacio desde arriba */
+    text-align: center; /* Centra el texto */
+}
+
 /* Estilos para el título */
 h1 {
     font-size: 28px;
