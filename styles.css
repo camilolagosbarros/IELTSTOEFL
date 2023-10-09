@@ -1,11 +1,3 @@
-/* Estilos generales */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0px; /* Agrega un margen de 0px alrededor del contenido */
-    padding: 0;
-}
-
 /* Franjas azules */
 .header-top {
     background-color: #0d1626;
@@ -44,11 +36,24 @@ h1 {
     margin: 20px 0;
     text-align: center;
     color: #ffffff;
-    position: static;
+    position: absolute;
     top: 10px; /* Nueva posición, 10px desde el borde superior */
     left: 50%;
     transform: translateX(-50%); /* Centra horizontalmente */
     width: 100%;
+}
+
+/* Estilos para el título en dispositivos móviles */
+@media (max-width: 600px) {
+    .logo {
+        display: none; /* Oculta el logo en la versión móvil */
+    }
+    h1 {
+        font-size: 20px; /* Cambia el tamaño del texto para dispositivos móviles */
+        margin: 10px 0; /* Ajusta el margen */
+
+    
+    }
 }
 
 /* Sección de Contenido Principal */
